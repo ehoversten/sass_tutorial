@@ -73,3 +73,11 @@ section h1 {
   @include clearFix;
   margin-bottom: 60px;
 }
+
+
+#projects li {
+  @include grid(4, 2%);
+  img {
+    width: 100%;
+  }
+}
